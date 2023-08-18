@@ -5,8 +5,7 @@ export default class App extends Component {
     return (
       <div className='app'>
         <h1>
-          Wolff Web Design Website starting with Github
-        
+          Helland Law Firm Start
         </h1>
         
       </div>
