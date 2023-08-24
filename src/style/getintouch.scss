@@ -1,0 +1,66 @@
+.complete-getintouch-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+    height: 575px;
+    box-shadow: inset 4px -10px 59px -33px rgba(0,0,0,0.6);
+    .left-getintouch-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #313231;
+        color: whitesmoke;
+        
+        .getintouch-email a{
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 1.1rem;
+
+        }
+        
+    }
+    .right-getintouch-wrapper{ 
+        color: $fontgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .open-hours-title{
+            font-family: $headfont;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            
+        }   
+        .open-hours-times{
+            display: flex;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+        .getintouch-map iframe{
+            box-shadow: 4px 10px 30px 10px rgba(0,0,0,0.3);
+        }
+    }
+}
+@media (max-width: 850px) {
+    .complete-getintouch-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 200px;
+
+        .left-getintouch-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0px;
+        }
+
+        .right-getintouch-wrapper .getintouch-map iframe{        
+            width: calc(100vw - 50px);
+        }
+    
+        
+    }
+}

@@ -1,0 +1,98 @@
+.complete-areasofpractice-wrapper{
+    .areasofpractice-content-wrapper{
+
+        .paralax-title-wrapper{
+            display: flex;
+            justify-content: center;
+            background-image: url(../../static/assets/lawyer.png);
+            width: 100%;
+            height: 30vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden;
+
+            .areasofpractice-heading{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: whitesmoke;
+                font-size: 4rem;
+                font-family: $headfont;
+                text-shadow:0 0 3px #000000, 0 0 5px #000000;
+            }
+        }
+
+        .different-areasofpractice-wrapper{
+            color: $fontgreen;
+            .total-area-with-definition{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap:50px;
+                justify-content: flex-start;
+                margin-left: 150px;
+                margin-top: 100px;
+                .left-side-area-examples{
+                    .areaofpractice-title{
+                        font-family: $headfont;
+                        font-size:3rem;
+                        margin-bottom: 20px;
+                    }
+                    .areaofpractice-example{
+                        font-size: 1rem;
+                        font-weight: 900;
+                        margin-bottom: 50px;
+                    }
+                    
+                }
+
+                .areaofpractice-definition{
+                    margin-top: 30px;
+                    margin-right: 50px;
+                }
+            }
+            .separation-line{
+                display: flex;
+                justify-content: center;
+                height: 1px;
+                background-color: $fontgreen;
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+        .areasofpractice-contact-link{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+            font-size: 1.5rem;
+            a{
+                text-decoration: none;
+                text-align: center;
+                color: $fontgreen;
+            }
+        }
+        @media (max-width: 850px) {
+            .different-areasofpractice-wrapper{
+                .total-area-with-definition{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 50px;
+                    margin-left: 50px;
+                    gap:0px;
+                    .left-side-area-examples{
+                        text-align: center;
+                        margin-bottom: 0px;
+                    }
+                    .areaofpractice-definition{
+                        margin-bottom: 50px;
+                        text-align: center;
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

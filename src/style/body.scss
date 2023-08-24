@@ -2,12 +2,12 @@ body {
     margin: 0px;
     font-family: $parafont, sans-serif;
     background-color: $backgroundgray;
-    
+}
+.all-content-wrapper{
+    min-height: calc(100vh - 250px);
 }
 
-.all-content-wrapper{
-    min-height: calc(100vh - 150px);
-}
+
 
 
 

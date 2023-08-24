@@ -1,0 +1,128 @@
+.complete-about-wrapper{
+    .about-content-wrapper{
+        .upper-about-content-wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .left-side-upper-about-wrapper img{
+                width: 100%;
+            }
+            .right-side-upper-about-wrapper{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 50px;
+                .right-side-about-us-header{
+                    color: $fontgreen;
+                    font-size: 4rem;
+                    font-family: $headfont;
+                }
+                .right-side-about-us-line{
+                    height: 2px;
+                    background-color: $fontgreen;
+                    width: 80px;
+                    border-radius: 5px;
+                    margin: 20px;
+                }
+                .about-us-upper-info{
+                    text-align: center;
+                    color: $fontgreen;
+                    font-weight: 900;
+                    font-size: 1.1rem;
+                    line-height: 40px;
+                }
+            }
+            @media (max-width: 1400px) {
+                .right-side-upper-about-wrapper{
+                    .right-side-about-us-header{
+                        font-size: 3rem;
+                    }
+                    .about-us-upper-info{
+                        font-size: .9rem;
+                        line-height: 30px;
+                    }
+                }
+                
+            }
+            @media (max-width: 1200px) {
+                .right-side-upper-about-wrapper{
+                    margin: 10px;
+                    .right-side-about-us-header{
+                        font-size: 2rem;
+                    }
+                    .about-us-upper-info{
+                        font-size: .9rem;
+                        line-height: 25px;
+                    }
+                }
+                
+            }
+            
+        }
+        @media (max-width: 850px) {
+            .upper-about-content-wrapper{
+                display: grid;
+                grid-template-columns: 1fr;
+                height: 90%;
+            }
+        }
+        
+        .lower-about-content-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .meet-the-team-header{
+                margin-top: 50px;
+                text-align: center;
+                color: $fontgreen;
+                font-family: $headfont;
+                font-size: 3rem;
+            }
+            .meet-the-team-line{
+                height: 2px;
+                background-color: $fontgreen;
+                width: 50px;
+                border-radius: 5px;
+                margin: 20px;
+            }
+            .all-headshot-bio-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 100px;
+                .headshot-bio-wrapper{
+                    .headshot-item{
+                        img {
+                            border-radius: 20px;
+                            box-shadow: 4px 10px 30px 5px rgba(0,0,0,0.3);
+                            object-fit: cover;
+                            width: 500px;
+                            height: 500px;
+                        }
+                    }
+                    .bio-item{
+                        color: $fontgreen;
+                        font-size: 1.5rem;
+                        font-weight: 900;
+                        margin-top: 20px;
+                    }
+                    .bio-position{
+                        font-size: 1.2rem;
+                    }
+                }
+                @media (max-width: 850px) {
+                    .headshot-bio-wrapper{
+                        .headshot-item img{
+                            border-radius: 20px;
+                            box-shadow: 4px 10px 30px 5px rgba(0,0,0,0.3);
+                            object-fit: cover;
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
