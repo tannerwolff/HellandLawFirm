@@ -5,7 +5,7 @@ import Peter from "../../../static/assets/peter.png";
 import Allison from "../../../static/assets/allison.png";
 import Zachary from "../../../static/assets/zachary.png";
 import Haley from "../../../static/assets/haley.png";
-import Nicole from "../../../static/assets/nicole.png";
+import Brittany from "../../../static/assets/brittany.png";
 
 export default function() {
 return  <div className='complete-about-wrapper'>
@@ -97,14 +97,14 @@ return  <div className='complete-about-wrapper'>
 
                         <div className='headshot-bio-wrapper'>
                             <div className='headshot-item'>
-                                <img src={Nicole} alt="Nicole Unknown"></img>
+                                <img src={Brittany} alt="Nicole Unknown"></img>
                             </div>
                             <div className='bio-item'>
                                 <div className='bio-name'>
-                                    Unknown
+                                    Brittany Sallee
                                 </div>
                                 <div className='bio-position'>
-                                    Unknown
+                                    unknown
                                 </div>
                             </div>
 

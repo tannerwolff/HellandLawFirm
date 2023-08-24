@@ -1,0 +1,99 @@
+.complete-payaninvoice-wrapper{
+    .upper-section-payaninvoice{
+        .upper-background-wrapper{
+            background-image: url(../../static/assets/handshake.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 65vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-x: hidden;
+            .upper-portion-overlay{
+                opacity: .75;
+                background-color: lightgray;   
+                height: 50%;
+                width: 60%;
+                box-shadow: 4px 10px 30px 5px rgba(0,0,0,0.5);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .upper-overlay-heading{
+                    font-size: 4rem;
+                    font-family: $headfont;
+                    margin-bottom: 10px;
+                    color: $fontgreen;
+                }
+                .upper-overlay-message{
+                    color: $fontgreen;
+                    font-weight: 900;
+                    font-size: 1rem;
+                    margin: 40px;
+                }
+                .upper-overlay-button{
+                    a{
+                        background-color: black;
+                        color: whitesmoke;
+                        text-decoration: none;
+                        padding: 15px 25px;
+                        border-radius: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+    .lower-payaninvoice-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #dbdcdb;
+        height: 250px;
+        font-size: 1.5rem;
+        color: $fontgreen;
+        margin: 50px 100px;
+    }
+    .lower-payaninvoice-link {
+        margin-top: 50px;
+        a{
+            font-family: $headfont;
+            color: $fontgreen;
+            text-decoration: none;
+            padding: 10px 20px;
+            border:1px solid $fontgreen; 
+        }
+    }
+    @media (max-width: 850px){
+        .upper-section-payaninvoice{
+            .upper-background-wrapper{
+                height: 70vh;
+                .upper-portion-overlay{
+                    .upper-overlay-heading{
+                        font-size: 2.5rem;
+                    }
+                    .upper-overlay-message{
+                        font-size: .9rem;
+                        margin: 40px;
+                    }
+                }
+            }
+            
+        }
+    }
+    @media (max-width: 850px){
+        .lower-payaninvoice-section{
+            font-size: 1.4rem;
+        }
+        .lower-payaninvoice-link a{
+            font-size: 1.2rem;
+        }
+    }
+        
+}
