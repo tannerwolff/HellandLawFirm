@@ -31,7 +31,7 @@ return  <div className='complete-areasofpractice-wrapper'>
 
                     <div className='total-area-with-definition'>
                         <div className='left-side-area-examples'>
-                            <div className='areaofpractice-title'>
+                            <div id="familylaws"className='areaofpractice-title'>
                                 Medical Malpractice
                             </div>
                             <div className='areaofpractice-example'>
@@ -48,7 +48,7 @@ return  <div className='complete-areasofpractice-wrapper'>
 
                     <div className='total-area-with-definition'>
                         <div className='left-side-area-examples'>
-                            <div className='areaofpractice-title'>
+                            <div id="corporatelaw"className='areaofpractice-title'>
                                 Family Law
                             </div>
                             <div className='areaofpractice-example'>
@@ -65,7 +65,7 @@ return  <div className='complete-areasofpractice-wrapper'>
 
                     <div className='total-area-with-definition'>
                         <div className='left-side-area-examples'>
-                            <div className='areaofpractice-title'>
+                            <div id="estateplanning" className='areaofpractice-title'>
                                 Corporate Law
                             </div>
                             <div className='areaofpractice-example'>
@@ -82,7 +82,7 @@ return  <div className='complete-areasofpractice-wrapper'>
 
                     <div className='total-area-with-definition'>
                         <div className='left-side-area-examples'>
-                            <div className='areaofpractice-title'>
+                            <div id="personalinjury" className='areaofpractice-title'>
                                 Estate Planning | Probate
                             </div>
                             <div className='areaofpractice-example'>
@@ -100,7 +100,7 @@ return  <div className='complete-areasofpractice-wrapper'>
 
                     <div className='total-area-with-definition'>
                         <div className='left-side-area-examples'>
-                            <div className='areaofpractice-title'>
+                            <div id='real-estate'  className='areaofpractice-title'>
                                 Personal Injury
                             </div>
                             <div className='areaofpractice-example'>
